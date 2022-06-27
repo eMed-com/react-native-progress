@@ -39,6 +39,7 @@ export default class Circle extends Component {
     return (
       <Path
         d={path}
+        fill="#00000000"
         strokeLinecap="butt"
         strokeWidth={strokeWidth}
         {...restProps}
